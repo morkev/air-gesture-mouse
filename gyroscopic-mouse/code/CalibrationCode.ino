@@ -1,5 +1,4 @@
-//Code to calibrate the ThimbleKrox
-//To calibrate the device run this code and follow the tutorial found at https://github.com/Magform/ThimbleKrox
+
 //The lines that need to be changed (as the other code) for calibration have "//calibration line" 
 //code write by Magform
 
