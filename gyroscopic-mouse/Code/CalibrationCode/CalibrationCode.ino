@@ -1,8 +1,3 @@
-#include <SD.h>
-
-#include <Keyboard.h>
-
-
 #include <MPU6050.h>
 #include <helper_3dmath.h>
 
