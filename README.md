@@ -1,12 +1,14 @@
 # Gyroscopic Mouse Control
 Arduino project for our Computer Architecture class, developed by Nathan Clark and Kevin Mora.
 
+The proposed solution includes an Arduino Micro microcontroller and an MPU-6050 accelerometer/gyroscope sensor. These two devices can be used in tandem to build a motion-controlled computer mouse, a device essential to those who may not have full use of their hands due to physical ailment or disability. Innovations such as this are indispensable for maintaining a high quality of life in present-times.
+
 <img width="875" alt="Screen Shot 2022-04-22 at 15 33 34" src="https://user-images.githubusercontent.com/83437383/164996277-673ffa71-b50d-4d11-8c3c-21d9a5067b1d.png">
 
-> Alternative version using board.
+> Alternative version of Arduino Micro using breadboard.
 
 ---
 
-<img width="1014" alt="Screen Shot 2022-04-23 at 16 53 53" src="https://user-images.githubusercontent.com/83437383/164996283-b16bfc37-7b32-4f6a-ae35-be853be3f3fc.png">
+<img width="875" alt="Screen Shot 2022-04-23 at 16 53 53" src="https://user-images.githubusercontent.com/83437383/164996283-b16bfc37-7b32-4f6a-ae35-be853be3f3fc.png">
 
-> Version implemented represented with an Arduino Uno
+> Current implementation represented with an Arduino Uno
