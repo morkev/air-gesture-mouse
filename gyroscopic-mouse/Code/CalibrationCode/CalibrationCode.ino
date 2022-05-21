@@ -28,33 +28,32 @@ void setup() {
 
 void up(){
   Serial.print(" up ");
-  }
+}
 void down(){
   Serial.print(" down ");
-  }
+}
 void left(){
   Serial.print(" left ");
-  }
+}
 void right(){
   Serial.print(" right ");
-  }
+}
 void rightclick(){
-    Serial.print(" RightClick ");;
-  }
+    Serial.print(" RightClick ");
+}
 void leftclick(){
-    Serial.print(" LeftClick ");;
-  }
+    Serial.print(" LeftClick ");
+}
   
 void loop() {
   mpu.getMotion6(&ax, &ay, &az, &gx, &gy, &gz);
 
-   if(ax>=5000){                          //calibration line
+  if(ax>=5000){                          //calibration line
     right(); //maybe 15000
   }
   if(ax<=-9000){                         //calibration line
     left();
   }
-    
   if(ay<=-8000){                          //calibration line
     up();
   }
