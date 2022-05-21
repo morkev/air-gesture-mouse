@@ -1,17 +1,8 @@
 #include <MPU6050.h>
 #include <helper_3dmath.h>
-
 #include <Wire.h>
-
 #include <Mouse.h>
-
 #include <I2Cdev.h>
-
-//Code to calibrate the ThimbleKrox
-//To calibrate the device run this code and follow the tutorial found at https://github.com/Magform/ThimbleKrox
-//The lines that need to be changed (as the other code) for calibration have "//calibration line" 
-//code write by Magform
-
 
 MPU6050 mpu;
 int16_t ax, ay, az, gx, gy, gz;
@@ -71,7 +62,7 @@ void loop() {
     down();
   }
 
-//uncomment the following lines to set the right click with a sprint up and the left click with a sprint down (Work in progress part)
+// Sets the right click with a sprint up and the left click with a sprint down
 /*
   if(gy>=20000){                         //calibration line        
     rightclick();
@@ -83,14 +74,12 @@ void loop() {
   }
 */
 
-
   Serial.print(" | gx= ");
   Serial.print(gx);
   Serial.print(" gy= ");
   Serial.print(gy);
   Serial.print(" gz= ");
   Serial.print(gz);
-
   
   Serial.print(" | ax= ");
   Serial.print(ax);
